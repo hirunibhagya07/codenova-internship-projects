@@ -1,0 +1,32 @@
+[
+    {
+        "question": "Which language is used to structure a web page?",
+        "answers": ["Python", "HTML", "Java", "C++"],
+        "correct": 1
+    },
+    {
+        "question": "Which CSS property changes the text colour?",
+        "answers": ["font-style", "background", "color", "padding"],
+        "correct": 2
+    },
+    {
+        "question": "Which language makes a website interactive?",
+        "answers": ["JavaScript", "HTML", "SQL", "CSS"],
+        "correct": 0
+    },
+    {
+        "question": "What does CSS stand for?",
+        "answers": [
+            "Creative Style System",
+            "Cascading Style Sheets",
+            "Computer Styling Setup",
+            "Colourful Style Sheets"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which HTML tag creates a hyperlink?",
+        "answers": ["<img>", "<p>", "<a>", "<h1>"],
+        "correct": 2
+    }
+]

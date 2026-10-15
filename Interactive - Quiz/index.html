@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Take a short, fun web development quiz at Little Quiz Corner.">
+    <title>Little Quiz Corner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="quiz-container">
+        <header class="quiz-header">
+            <p class="tag">A LITTLE BRAIN BREAK ✿</p>
+            <h1>Little Quiz Corner</h1>
+            <p class="subtitle">Take a moment and test what you know.</p>
+        </header>
+
+        <section class="quiz-card" id="quiz-card" aria-labelledby="question">
+            <div class="quiz-info">
+                <span id="question-count">Question 1 of 5</span>
+                <span id="score-display">Score: 0</span>
+            </div>
+
+            <div
+                class="progress-track"
+                id="progress-track"
+                role="progressbar"
+                aria-label="Quiz progress"
+                aria-valuemin="0"
+                aria-valuemax="5"
+                aria-valuenow="0"
+            >
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+
+            <h2 id="question">Loading question...</h2>
+
+            <div class="answers" id="answers"></div>
+
+            <p id="feedback" class="feedback" aria-live="polite"></p>
+
+            <button id="next-btn" class="main-button" type="button" disabled>
+                Next question →
+            </button>
+        </section>
+
+        <section
+            class="result-card hidden"
+            id="result-card"
+            aria-labelledby="result-title"
+            aria-live="polite"
+        >
+            <p class="tag">QUIZ COMPLETED ✿</p>
+            <h2 id="result-title">Well done!</h2>
+            <p id="final-score"></p>
+            <p id="result-message"></p>
+
+            <button id="restart-btn" class="main-button" type="button">
+                Try again ↻
+            </button>
+        </section>
+
+        <p id="error-message" class="error-message hidden" role="alert">
+            The quiz could not be loaded. Please refresh the page and try again.
+        </p>
+
+        <footer>
+            Made with ♡ for curious minds
+        </footer>
+    </main>
+</body>
+</html>

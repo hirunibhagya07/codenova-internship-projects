@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Petal & Paper is a little stationery club for journaling, collecting memories and making everyday life feel special.">
+    <title>Petal & Paper - Little Things, Lovely Days</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="logo" href="#home" aria-label="Petal and Paper home">
+                petal<span>&</span>paper<span class="logo-flower">✿</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-controls="nav-links"
+                aria-expanded="false">
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#story">Our little story</a></li>
+                <li><a href="#goodies">The goodies</a></li>
+                <li><a href="#club">Join the club</a></li>
+                <li><a class="nav-cta" href="#club">Find your bundle ↗</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero container" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow"><span>✿</span> A little joy in the post</p>
+
+                <h1>
+                    For the love of
+                    <span class="handwritten">little things.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Pretty paper, happy mail and tiny reasons to slow down.
+                    Meet your new favourite corner of the stationery world.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button button-dark" href="#club">Find your paper bundle ↗</a>
+                    <a class="text-link" href="#goodies">Take a little peek <span>↓</span></a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="note-star">✳</span>
+                    <p>Made for daydreamers, list-makers and memory keepers.</p>
+                </div>
+            </div>
+
+            <div class="hero-art" aria-label="A styled collection of notebooks, stickers and stationery">
+                <div class="art-sun"></div>
+
+                <div class="paper paper-back">
+                    <span class="paper-flower">✿</span>
+                    <span class="paper-word">slow<br>days</span>
+                </div>
+
+                <div class="notebook">
+                    <div class="notebook-spiral" aria-hidden="true">
+                        <span></span><span></span><span></span>
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="notebook-cover">
+                        <span class="cover-flower">✿</span>
+                        <p>little notes</p>
+                        <span class="cover-line"></span>
+                        <small>AND HAPPY THOUGHTS</small>
+                    </div>
+                </div>
+
+                <div class="sticker-sheet">
+                    <span>♡</span>
+                    <span>✿</span>
+                    <span>☼</span>
+                    <span>♡</span>
+                    <span>✦</span>
+                    <span>✿</span>
+                </div>
+
+                <div class="mini-card">
+                    <span>just a reminder</span>
+                    <p>you are<br>doing lovely ♡</p>
+                </div>
+
+                <div class="art-caption">a bundle of little happiness</div>
+                <span class="floating-doodle doodle-one" aria-hidden="true">✳</span>
+                <span class="floating-doodle doodle-two" aria-hidden="true">♡</span>
+            </div>
+        </section>
+
+        <div class="ticker" aria-label="Our favourite little things">
+            <div class="ticker-track" aria-hidden="true">
+                <span>PRETTY PAPER</span><b>✿</b>
+                <span>SLOW MORNINGS</span><b>✳</b>
+                <span>HAPPY MAIL</span><b>♡</b>
+                <span>TINY MEMORIES</span><b>✿</b>
+                <span>PRETTY PAPER</span><b>✿</b>
+                <span>SLOW MORNINGS</span><b>✳</b>
+                <span>HAPPY MAIL</span><b>♡</b>
+                <span>TINY MEMORIES</span><b>✿</b>
+            </div>
+        </div>
+
+        <section class="story section-space" id="story">
+            <div class="container story-layout">
+                <div class="story-art">
+                    <div class="story-paper">
+                        <span class="story-topline">A NOTE FROM US</span>
+                        <span class="story-big-flower">✿</span>
+                        <p>Life is made of little moments.</p>
+                        <span class="story-signature">keep the lovely ones ♡</span>
+                    </div>
+                    <span class="story-sticker">made with<br>a little love</span>
+                </div>
+
+                <div class="story-copy">
+                    <p class="eyebrow">A note from our desk</p>
+                    <h2>Not everything needs to be <span class="handwritten">in a hurry.</span></h2>
+
+                    <p>
+                        We believe in writing things down, keeping silly little
+                        keepsakes and making an ordinary Tuesday feel special.
+                    </p>
+
+                    <p>
+                        Petal & Paper is a stationery club inspired by slow
+                        mornings, messy journals, handwritten notes and the
+                        joy of opening something made just for you.
+                    </p>
+
+                    <a class="text-link" href="#club">A little more about the club <span>↗</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="goodies section-space" id="goodies">
+            <div class="container">
+                <div class="section-intro">
+                    <p class="eyebrow">Little things, thoughtfully picked</p>
+                    <h2>Open a box of <span class="handwritten">happy.</span></h2>
+                    <p>Paper treasures for your journal, your desk and your everyday.</p>
+                </div>
+
+                <div class="goodies-grid">
+                    <article class="goodie-card">
+                        <div class="goodie-art art-notes">
+                            <span class="art-label">01 / WRITE IT DOWN</span>
+                            <div class="mini-notebook">
+                                <span>dear diary,</span>
+                                <i></i><i></i><i></i><i></i>
+                                <b>♡</b>
+                            </div>
+                            <span class="art-decoration">✿</span>
+                        </div>
+                        <div class="goodie-info">
+                            <div>
+                                <h3>The paper things</h3>
+                                <p>Notepads, lists and lovely little pages.</p>
+                            </div>
+                            <span class="goodie-number">01</span>
+                        </div>
+                    </article>
+
+                    <article class="goodie-card">
+                        <div class="goodie-art art-stickers">
+                            <span class="art-label">02 / MAKE IT YOURS</span>
+                            <div class="sticker sticker-a">slow<br>mornings</div>
+                            <div class="sticker sticker-b">✿</div>
+                            <div class="sticker sticker-c">little<br>things ♡</div>
+                            <div class="sticker sticker-d">☼</div>
+                        </div>
+                        <div class="goodie-info">
+                            <div>
+                                <h3>The cute extras</h3>
+                                <p>Stickers, washi tape and tiny details.</p>
+                            </div>
+                            <span class="goodie-number">02</span>
+                        </div>
+                    </article>
+
+                    <article class="goodie-card">
+                        <div class="goodie-art art-memories">
+                            <span class="art-label">03 / KEEP THE MOMENT</span>
+                            <div class="memory-card memory-one">a day<br>to remember <span>♡</span></div>
+                            <div class="memory-card memory-two">little joys<br>collection <span>✿</span></div>
+                            <span class="memory-sparkle">✳</span>
+                        </div>
+                        <div class="goodie-info">
+                            <div>
+                                <h3>The memory keepers</h3>
+                                <p>Cards and keepsakes worth holding on to.</p>
+                            </div>
+                            <span class="goodie-number">03</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="club section-space" id="club">
+            <div class="container">
+                <div class="section-intro">
+                    <p class="eyebrow">Your happy mail era starts here</p>
+                    <h2>A little bundle, <span class="handwritten">just for you.</span></h2>
+                    <p>Pick your kind of happy. Choose monthly or yearly below.</p>
+
+                    <div class="billing-switch" role="group" aria-label="Choose subscription billing">
+                        <button class="billing-option active" id="monthly-button"
+                            type="button" aria-pressed="true">Monthly</button>
+                        <button class="billing-option" id="yearly-button"
+                            type="button" aria-pressed="false">
+                            Yearly <span class="save-pill">Save 15%</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="club-grid">
+                    <article class="club-card">
+                        <div class="club-card-top">
+                            <span class="plan-flower flower-sage">✿</span>
+                            <span class="plan-tag">THE LITTLE ONE</span>
+                        </div>
+                        <h3>Paper Petal</h3>
+                        <p class="plan-description">A sweet little start for your stationery collection.</p>
+
+                        <div class="price-line">
+                            <span class="price-currency">LKR</span>
+                            <span class="price-amount" data-monthly="1800" data-yearly="1530">1,800</span>
+                            <span class="price-period">/ month</span>
+                        </div>
+                        <p class="billing-note" id="paper-note">Billed monthly</p>
+
+                        <ul class="plan-list">
+                            <li>One mini notebook</li>
+                            <li>A themed sticker sheet</li>
+                            <li>Monthly journaling prompt</li>
+                        </ul>
+
+                        <a class="button button-outline plan-button" href="#join-note">Pick Paper Petal ↗</a>
+                    </article>
+
+                    <article class="club-card club-card-featured">
+                        <span class="popular-tag">THE FAN FAVOURITE ✿</span>
+                        <div class="club-card-top">
+                            <span class="plan-flower flower-pink">♡</span>
+                            <span class="plan-tag">THE FULL BUNDLE</span>
+                        </div>
+                        <h3>Petal Party</h3>
+                        <p class="plan-description">For the journal lover who wants a little bit of everything.</p>
+
+                        <div class="price-line">
+                            <span class="price-currency">LKR</span>
+                            <span class="price-amount" data-monthly="3200" data-yearly="2720">3,200</span>
+                            <span class="price-period">/ month</span>
+                        </div>
+                        <p class="billing-note" id="party-note">Billed monthly</p>
+
+                        <ul class="plan-list">
+                            <li>Everything in Paper Petal</li>
+                            <li>Washi tape and extra stickers</li>
+                            <li>Postcards and memory cards</li>
+                            <li>A surprise paper goodie</li>
+                        </ul>
+
+                        <a class="button button-dark plan-button" href="#join-note">Pick Petal Party ↗</a>
+                    </article>
+
+                    <article class="club-card">
+                        <div class="club-card-top">
+                            <span class="plan-flower flower-butter">☼</span>
+                            <span class="plan-tag">THE COLLECTOR</span>
+                        </div>
+                        <h3>Forever Bloom</h3>
+                        <p class="plan-description">A generous bundle for your most creative days.</p>
+
+                        <div class="price-line">
+                            <span class="price-currency">LKR</span>
+                            <span class="price-amount" data-monthly="4800" data-yearly="4080">4,800</span>
+                            <span class="price-period">/ month</span>
+                        </div>
+                        <p class="billing-note" id="bloom-note">Billed monthly</p>
+
+                        <ul class="plan-list">
+                            <li>Everything in Petal Party</li>
+                            <li>A premium journal</li>
+                            <li>Exclusive seasonal stationery</li>
+                            <li>Extra keepsakes and art cards</li>
+                        </ul>
+
+                        <a class="button button-outline plan-button" href="#join-note">Pick Forever Bloom ↗</a>
+                    </article>
+                </div>
+
+                <p class="price-disclaimer">
+                    These are sample prices for a student project. No real orders or payments are processed.
+                </p>
+            </div>
+        </section>
+
+        <section class="faq section-space" id="faq">
+            <div class="container faq-layout">
+                <div class="faq-heading">
+                    <p class="eyebrow">A few little answers</p>
+                    <h2>Curious about <span class="handwritten">something?</span></h2>
+                    <p>Here are a few things you might like to know before joining our imaginary club.</p>
+                    <span class="faq-flower" aria-hidden="true">✿</span>
+                </div>
+
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>What is the Petal & Paper Club?</summary>
+                        <p>
+                            It's a stationery subscription concept for this
+                            student project. Each bundle features a mix of
+                            paper goods, stickers and journaling extras.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>What's inside each bundle?</summary>
+                        <p>
+                            Each tier includes a different collection of
+                            notebooks, stickers, washi tape, postcards or
+                            other stationery-inspired keepsakes. The exact
+                            contents would depend on the selected plan.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How does yearly billing work?</summary>
+                        <p>
+                            The yearly option shows a discounted equivalent
+                            monthly price. The full twelve-month amount is
+                            billed once for the year in this pricing example.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Can I place a real order here?</summary>
+                        <p>
+                            Not yet! This is a frontend demo. The buttons
+                            demonstrate the landing-page design, but a real
+                            store would need order management and a secure
+                            payment system.
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="join-note" id="join-note">
+            <div class="container join-inner">
+                <span class="join-flower" aria-hidden="true">✿</span>
+                <p class="eyebrow">A little note before you go</p>
+                <h2>Make room for a little <span class="handwritten">wonder.</span></h2>
+                <p>Write the list. Keep the ticket. Send the note. Save the little things.</p>
+                <a href="#home" class="button button-dark">Back to the beginning ↑</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="logo" href="#home">petal<span>&</span>paper<span class="logo-flower">✿</span></a>
+            <p>For the little things worth keeping.</p>
+            <p class="copyright">© <span id="current-year"></span> Petal & Paper · Student project</p>
+        </div>
+    </footer>
+
+</body>
+</html>
