@@ -22,8 +22,8 @@ A personal portfolio website created for my CodeNova Frontend Development Intern
 ## How to Run Locally
 
 1. Clone or download this repository.
-2. Open the `Responsive - Portfolio` folder in VS Code.
-3. Open `index.html` using the Live Server extension.
+2. Open the Responsive - Portfolio folder in VS Code.
+3. Open index.html using the Live Server extension.
 
 ## Responsive Screenshots
 
