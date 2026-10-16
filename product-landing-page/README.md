@@ -25,7 +25,7 @@ HTML5, CSS3, JavaScript
 - landing-desktop.png
 - landing-mobile.png
 
-Screenshots are available in the `screenshots` folder.
+Screenshots are available in the screenshots folder.
 
 **Note:** This is a frontend demonstration. It does not process real orders or payments.
 
