@@ -1,29 +1,33 @@
-Petal & Paper - Product Landing Page
+# Petal & Paper — Product Landing Page
 
-Petal & Paper is a stationery-themed landing page I created for my CodeNova Frontend Development Internship. The idea is inspired by journaling, cute stationery and keeping little memories.
+A stationery-inspired landing page featuring a soft, creative design for my CodeNova Frontend Development Internship.
 
-Features
-- Responsive layout for desktop and mobile
-- Sticky navigation with a mobile menu
-- Stationery-inspired feature cards
-- Monthly and yearly subscription pricing switch
-- Expandable FAQ section
+## Live Demo
 
-Technologies
-- HTML
-- CSS
-- JavaScript
+[Visit Petal & Paper](https://hirunibhagya07.github.io/codenova-internship-projects/product-landing-page/index.html)
 
-How to Run
+## Features
+- Responsive desktop and mobile layouts
+- Sticky navigation and mobile menu
+- Feature cards
+- Monthly/yearly pricing switch
+- Interactive FAQ accordion
+
+## Technologies
+HTML5, CSS3, JavaScript
+
+## How to Run
 1. Open the project folder in VS Code.
-2. Run `index.html` using the Live Server extension.
-3. Explore the page and test the pricing switch and FAQ.
+2. Run index.html using Live Server.
+3. Test the pricing switch and FAQ accordion.
 
-Screenshots
-(landing-desktop.png, landing-mobile.png)
+## Screenshots
+- landing-desktop.png
+- landing-mobile.png
 
-Note
-This is a frontend demonstration project. It does not process real orders or payments.
+Screenshots are available in the `screenshots` folder.
 
-Author
+**Note:** This is a frontend demonstration. It does not process real orders or payments.
+
+## Author
 Hiruni Bhagya
