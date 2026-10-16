@@ -1,28 +1,32 @@
-Interactive Quiz Website
+# Interactive Quiz Website
 
-This is a small quiz website I created for my CodeNova Frontend Development Internship.
+An interactive multiple-choice quiz created for my CodeNova Frontend Development Internship.
 
-Features
-- Multiple-choice questions
-- Correct and incorrect answer feedback
-- Score tracking and progress bar
-- Results page and restart option
-- Responsive design for different screen sizes
-- Questions loaded from a JSON file
+## Live Demo
 
-Technologies
-- HTML
-- CSS
-- JavaScript
-- JSON
+[Play the Quiz](https://hirunibhagya07.github.io/codenova-internship-projects/Interactive%20-%20Quiz/index.html)
 
-How to Run
+## Features
+- Multiple-choice questions loaded from JSON
+- Progress tracking and answer feedback
+- Score calculation and results screen
+- Restart functionality
+
+## Technologies
+HTML5, CSS3, JavaScript, JSON
+
+## How to Run
 1. Open the project folder in VS Code.
-2. Run `index.html` using the Live Server extension.
-3. Answer the questions and view your final score.
+2. Run index.html using Live Server.
+3. Answer the questions and view your results.
 
-Screenshots
-(quiz-question.png, quiz-correct.png, quiz-incirrect.png, quiz-results.png)
+## Screenshots
+- quiz-question.png
+- quiz-correct.png
+- quiz-incorrect.png
+- quiz-results.png
 
-Author
+Screenshots are available in the screenshots folder.
+
+## Author
 Hiruni Bhagya
