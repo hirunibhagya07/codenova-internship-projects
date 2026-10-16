@@ -1,6 +1,9 @@
 # CodeNova Frontend Internship Projects
 Welcome to my frontend development projects, created as part of my CodeNova Frontend Development Internship.
 
+## Live Website
+[Visit My Portfolio & Projects](https://hirunibhagya07.github.io/codenova-internship-projects/)
+
 ## Projects
 ### 1. Responsive Portfolio Website
 A personal portfolio showcasing my skills, projects, and contact information.
