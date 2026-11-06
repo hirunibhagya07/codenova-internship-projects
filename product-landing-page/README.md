@@ -1,4 +1,4 @@
-# Petal & Paper — Product Landing Page
+# Petal & Paper - Product Landing Page
 
 A stationery-inspired landing page featuring a soft, creative design for my CodeNova Frontend Development Internship.
 
